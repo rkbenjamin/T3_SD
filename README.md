@@ -8,7 +8,6 @@ Este repositorio contiene la tercera entrega del proyecto del curso **Sistemas D
 
 El propósito del procesamiento batch es obtener métricas agregadas —tales como frecuencias de palabras, patrones lingüísticos y comparaciones entre corpus— que complementan el flujo asíncrono desarrollado en la Tarea 2.
 
----
 
 ##Arquitectura del sistema
 
