@@ -37,3 +37,25 @@ La arquitectura se ejecuta dentro de un único contenedor que incluye Hadoop, HD
 
 ```bash
 docker compose up -d
+```
+
+### 2. Ingresar al contenedor
+```bash
+docker exec -it tarea3-pig bash
+```
+
+### 3. Verificar HDFS
+```bash
+hdfs dfs -ls /
+hdfs dfs -ls /data
+```
+
+### 4. Ejecutar el script Pig
+```bash
+pig /workspace/pig_scripts/wordcount.pig
+```
+
+### 5. Descargar resultados
+```bash
+hdfs dfs -get /output /workspace/results
+```
